@@ -1,0 +1,39 @@
+.box{
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+i{
+    font-size: 56px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 5%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  img{
+    width: 100px;
+    height: 50px;
+  }
+
+.delete{
+    color: red;
+    font-size: 24px;
+    cursor: pointer;
+}
